@@ -1,3 +1,4 @@
+import { Contact, icons } from "lucide-react";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -9,10 +10,17 @@ export default {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        "xl" : "1280px",
+        "lg" : "1024px",
+        "md" : "768px",
+        "sm" : "640px",
+        'xs': { 'max': '369px' },        
+        'sm-mid': { 'min': '370px', 'max': '639px' },
       },
     },
     extend: {
       colors: {
+        contact_bg: "hsl(142.36 100% 33%)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
