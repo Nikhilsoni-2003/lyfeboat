@@ -14,15 +14,7 @@ import {
   Calendar,
   Clock,
   CreditCard,
-  ExternalLink,
-  Globe,
-  Image,
-  Mail,
-  MapPin,
-  Phone,
   Store,
-  Tag,
-  User,
 } from "lucide-react";
 
 type BusinessPageProps = {
@@ -165,3 +157,6 @@ const BusinessPage = ({ data }: BusinessPageProps) => {
 };
 
 export default BusinessPage;
+
+
+// .\caddy.exe run --config Caddyfile

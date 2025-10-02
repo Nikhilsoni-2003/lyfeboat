@@ -97,7 +97,7 @@ export const BusinessNavigation = ({ activeTab, onTabChange }: BusinessNavigatio
                 }`}
               >
                 <Icon className="w-4 h-4" />
-                <span className="hidden sm:inline">{item.label}</span>
+                <span>{item.label}</span>
               </button>
             );
           })}
