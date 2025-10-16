@@ -7,4 +7,5 @@ export const Route = createFileRoute('/_auth/feed')({
 
 function RouteComponent() {
   return <Feed />
+  return <Feed />
 }

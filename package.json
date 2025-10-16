@@ -9,7 +9,6 @@
   },
   "devDependencies": {
     "@hey-api/openapi-ts": "0.80.10",
-    "@rollup/rollup-win32-x64-msvc": "^4.52.4",
     "@types/bun": "latest",
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
