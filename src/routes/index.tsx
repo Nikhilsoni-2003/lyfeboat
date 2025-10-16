@@ -1,6 +1,7 @@
 import { BusinessListings } from "@/components/BusinessListing";
 import { CarouselDemo } from "@/components/Carousel";
 import { ServiceCategories } from "@/components/CategoryGrid";
+import { Feed } from "@/components/feed";
 import { PromoBanner } from "@/components/PromoBanner";
 import { SearchBar } from "@/components/SearchBar";
 import { createFileRoute } from "@tanstack/react-router";
@@ -14,6 +15,9 @@ function HomePage() {
         <ServiceCategories />
         <BusinessListings />
       </div>
+      {/* feed */}
+      <Feed />
+      
       <CarouselDemo />
     </main>
   );
